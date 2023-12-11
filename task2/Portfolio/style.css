@@ -1,0 +1,596 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+    z-index: 5;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding:  0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 10px;
+}
+a.active,a.hover{
+    background: blue;
+    transition: .5s;
+}
+nav ul li a:hover{
+    background: blue;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.home{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+.lef{
+    width: 45%;
+    height: 100%;
+    margin: -10%;
+}
+.rig{
+    position: absolute;
+    right: 6%;
+    width: 50%;
+    height: 60%;
+}
+.rig img{
+    padding: 10% 10%;
+    border: 2px solid white;
+    margin-top: -20%;
+    margin-right: 20%;
+    position: relative;
+    height: 100%;
+    float: right;
+}
+.text{
+    position: absolute;
+    font-weight: bold;
+    margin: 13% 10%;
+    text-align: left;
+    left: 20px;
+    font-size: 50px;
+    color: aqua;
+}
+.text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.kk{
+    position: absolute;
+    margin: 31% 10%;
+    text-align: left;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.intro{
+    position: absolute;
+    margin: 36% 10%;
+    text-align: center;
+    left: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color:  rgb(240, 2, 81);
+    border-radius: 20%;
+    color: white;
+    padding: 10px;
+}
+.intro:hover{
+    background-color: white;
+    color: red;
+}
+.about{
+    background-image: url("5th.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: white;
+    overflow: hidden;
+    padding: 100px 0;
+    margin-top: 1%;
+}
+.container{
+    width: 55%;
+    float: right;
+    background-color: white;
+    padding: 50px;
+}
+.container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.abt-text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+.social a{
+    text-decoration: none;
+    color: rgb(231, 9, 76);
+}
+.edu{
+    margin-top: 1%;
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+.edu #head1{
+     display: flex;
+     justify-content: center;
+     color: aqua;
+     font-size: 30px;
+     font-weight: bold;
+     padding: 5% 0% 0% 0%;
+}
+.ten{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 40%;
+    width: 20%;
+    background-color: black;
+    border: 1px solid rgb(240, 2, 81);
+    border-radius: 20px;
+}
+.ten h1{
+    position: relative;
+    margin-top: 11%;
+    margin-left: 8%;
+    padding-top: 1px;
+    padding-left: 5%;
+    color: rgb(240, 2, 81);
+}
+#high{
+    font-size: 20px;
+    color: white;
+    padding: 5%;
+    text-align: justify;
+}
+.twellve{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 27%;
+    height: 40%;
+    width: 20%;
+    background-color: black;
+    border: 1px solid rgb(240, 2, 81);
+    border-radius: 20px;
+}
+.twellve h1{
+    position: relative;
+    margin-top: 11%;
+    margin-left: 8%;
+    padding-top: 1px;
+    padding-left: 5%;
+    color: rgb(240, 2, 81);
+}
+#twe{
+    font-size: 20px;
+    color: white;
+    padding: 5%;
+    text-align: justify;
+}
+.graduation{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 51%;
+    height: 40%;
+    width: 20%;
+    background-color: black;
+    border: 1px solid rgb(240, 2, 81);
+    border-radius: 20px;
+}
+.graduation h1{
+    position: relative;
+    margin-top: 11%;
+    margin-left: 8%;
+    padding-top: 1px;
+    padding-left: 5%;
+    color: rgb(240, 2, 81);
+}
+#gra{
+    font-size: 20px;
+    color: white;
+    padding: 5%;
+    text-align: justify;
+}
+.master{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 75%;
+    height: 40%;
+    width: 20%;
+    background-color: black;
+    border: 1px solid rgb(240, 2, 81);
+    border-radius: 20px;
+}
+.master h1{
+    position: relative;
+    margin-top: 11%;
+    margin-left: 8%;
+    padding-top: 1px;
+    padding-left: 2%;
+    color: rgb(240, 2, 81);
+}
+#pos{
+    font-size: 20px;
+    color: white;
+    padding: 5%;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    padding-top: 2%;
+}
+h3{
+    margin: 10px;
+}
+.sk{
+    width: 100%;
+    height: 650px;
+    padding-top: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: #f0ffff;
+}
+.skill{
+    width: 700px;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: 23%;
+    margin-bottom: 2%;
+    color:  rgb(240, 2, 81);
+    padding: 20px;
+    box-shadow: 0 14px 28px  rgb(240, 2, 81);
+    background-color: black;
+}
+.skill li{
+    margin: 2px 0;
+    padding: 10px;
+}
+.skills{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgb(240, 2, 81) ;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.skills:hover{
+    box-shadow: 0 14px 28px rgb(240, 2, 81);
+}
+.skills span{
+    height: 20px;
+    float: left;
+    background: rgb(240, 2, 81);
+}
+.lan{
+    width: 70%;
+    animation: Language 3s;
+}
+.html{
+    width: 80%;
+    animation: HTML 3s;
+}
+.css{
+    width: 60%;
+    animation: CSS 3s;
+}
+.js{
+    width: 60%;
+    animation: Javascript 3s;
+}
+.py{
+    width: 50%;
+    animation: Python 3s;
+}
+.Jquery{
+    width: 40%;
+    animation: Jquery 3s;
+}
+@keyframes Language{
+     0%{
+        width: 0%;
+     }
+     100%{
+        width: 70%;
+     }
+}
+@keyframes HTML{
+    0%{
+       width: 0%;
+    }
+    100%{
+       width: 80%;
+    }
+}
+@keyframes CSS{
+    0%{
+       width: 0%;
+    }
+    100%{
+       width: 60%;
+    }
+}
+@keyframes Javascript{
+    0%{
+       width: 0%;
+    }
+    100%{
+       width: 60%;
+    }
+}@keyframes Python{
+    0%{
+       width: 0%;
+    }
+    100%{
+       width: 70%;
+    }
+}@keyframes Jquery{
+    0%{
+       width: 0%;
+    }
+    100%{
+       width: 40%;
+    }
+}
+.projects{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.images{
+    margin-top: 5%;
+    margin-left: 5%;
+   width: 90%;
+   height: auto;
+   background-color: black;
+   border: 5px solid white;
+   margin-bottom: 3%;
+}
+.images #one{
+    width: 400px;
+    height: auto;
+    margin: 5%;
+    padding: 0px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+.images #two{
+    width: 400px;
+    margin: 5%;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+.images #three{
+    width: 400px;
+    margin: 5%;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+.images #four{
+    width: 400px;
+    margin: 5%;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+ 
+@media screen and (max-width:600px){
+    .home{
+        width: 100%;
+        height: 600px;
+    }
+    .text p{
+        font-size: 25px;
+    }
+    .kk{
+        margin-top: 37%;
+    }
+    .intro{
+        margin-top: 55%;
+    }
+    .rig img{
+        margin-top: -90%;
+        height: 300px;
+    }
+    .edu{
+        /* display: flex; */
+        flex-direction: row;
+        width: 100%;
+        height: 1200px;
+    }
+    .ten {
+        margin-top: 10%;
+        width: 50%;
+        height: 250px;
+        margin-left: 35%;
+    }
+    .twellve{
+        margin-top: 60%;
+        width: 50%;
+        height: 250px;
+        margin-left: 35%;
+    }
+    .graduation{
+        margin-top: 110%;
+        width: 50%;
+        height: 250px;
+        margin-left: 35%;
+    }
+    .master{
+        margin-top: 160%;
+        width: 50%;
+        height: 250px;
+        margin-left: 35%;
+    }
+    .sk{
+        width: 70%;
+        height: auto;
+        margin-left: 0%;
+    }
+    .skill{
+        width: 400px ;
+        height: auto;
+    }
+    .clock img{
+        height: 200px;
+        padding: 1%;
+        margin-top: 45%;
+        margin-bottom: 10%;
+    }
+    .images{
+        margin: 4%;
+        margin-left: 20%;
+        width: 60%;
+    }
+    .images #one{
+        padding: 2%;
+        width: 300px;
+    }
+    .images #two{
+        padding: 2%;
+        width: 300px;
+    }
+    .images #three{
+        padding: 2%;
+        width: 300px;
+    }
+    .images #four{
+        padding-right: 2%;
+        width: 300px;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+      padding: 80px;
+    }
+    .navbar li{
+        height: 80px;
+        flex-direction: column;
+    }
+    }
+
+@media screen and (max-width:1000px) {
+      .about{
+        background-size: 100%;
+        padding: 100px 40px;
+      }
+      .container{
+        width: 100%;
+      }
+}
+@media screen and (max-width:600px) {
+    .about{
+      padding:0px;
+    }
+    .container{
+      padding: 60px;
+    }
+}
+
+@media (max-width:952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: darkblue;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: aqua;
+    }
+    #check:checked ~ ul{
+        left: 0%;
+    }
+} 

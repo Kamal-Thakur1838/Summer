@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 0.5%;
+    color: aqua;
+}
+#logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+#search{
+    float: right;
+    margin-right: 10%;
+    cursor: pointer;
+    background-color: black;
+}
+#search input{
+    padding: 3%;
+    border: 2px solid aqua;
+    border-radius: 10%;
+    background-color: black;
+    color: aqua;
+}
+.home{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.home video{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-left: 0%;
+    margin-right: 0%;
+    object-fit: cover;
+    opacity: 0.35;
+}
+h1{
+    color: rgb(0, 204, 255);
+    z-index: 1;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+.image img{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-left: 30%;
+    margin-top: -10%;
+    position: absolute;
+    z-index: 5;
+}
+.line{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    background-color: black;
+    color: antiquewhite;
+}
+.line h3{
+    margin-left: 40%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.para{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    color: black;
+}
+.para1{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 0%;
+    padding: 1%;
+    border: 3px solid black;
+}
+@media  screen and (max-width:1075px){
+     .image img{
+        width: 400px;
+        height: auto;
+     }
+}
+@media  screen and (max-width:993px){
+    .image img{
+       width: 350px;
+       margin-left: 32%;
+       height: auto;
+    }
+}
+@media  screen and (max-width:768px) {
+    .content{
+        flex-direction: column;
+        margin: 5%;
+    }
+    h1{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 29%;
+        margin-top: 26%;
+    }
+    /* .image{
+        width: 400px;
+        height: auto;
+    } */
+    .image img{
+        width: 250px;
+        height: auto;
+        margin-left: 31%;
+    }
+    .para p{
+        font-size: 15px;
+        padding: 33% 5% 5% 15%;
+        margin-right: 5%;
+    }
+    .line h3{
+        font-size: 15px;
+        margin-left: 30%;
+    }
+}
+@media  screen and (max-width:600px){
+    h1{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 18%;
+        margin-top: 40%;
+    }
+    .image{
+        width: 400px;
+        height: auto;
+    }
+    .image img{
+        width: 230px;
+        height: auto;
+        margin-left: 28%;
+        /* margin-right: 5%; */
+    }
+    .para1 p{
+        font-size: 15px;
+        padding: 40% 5% 5% 15%;
+        margin-right: 5%;
+    }
+}
+@media  screen and (max-width:485px){
+    .image img{
+        width: 150px;
+        height: auto;
+        margin-left: 28%;
+        /* margin-right: 5%; */
+    }
+}
+@media  screen and (max-width:1500px){
+    .para p{
+        font-size: 15px;
+        padding: 25% 5% 5% 15%;
+        margin-right: 5%;
+    }
+}
